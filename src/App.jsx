@@ -46,6 +46,9 @@ function App() {
     setLoader(true);
     let reply = await fetch(URL, {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify(payload),
     });
 
@@ -141,9 +144,7 @@ function App() {
             </ul>
           </div>
           <div
-            className=" dark:bg-zinc-700 bg-teal-100 w-1/2 p-1 pr-5 pl-2 m-auto rounded-4xl
-        border border-b-emerald-950 flex h-13"
-          >
+            className=" dark:bg-zinc-700 bg-teal-100 w-full max-w-xl p-1 pr-5 pl-2 mx-40 rounded-4xl border border-b-emerald-950 flex items-center h-13 fixed bottom-5 left-1/2 -translate-x-1/2">
             <input
               type="text"
               value={question}
