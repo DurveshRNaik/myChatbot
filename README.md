@@ -28,8 +28,7 @@ The tool functions similarly to AI models like ChatGPT or DeepSeek, answering us
 Before you begin, ensure you have the following installed:
 
 * Node.js and npm (or yarn)
-* Basic knowledge of React.js
-* Basic knowledge of JavaScript
+* Basic knowledge of React.js and JavaScript
 * A **Google API Key** for the Gemini AI Tool.
 
 ## 🔑 Installation and Setup
@@ -54,7 +53,7 @@ Create a file named .env in the project root.
 
 Add your API key in the following format:
 
-REACT_APP_GEMINI_API_KEY="YOUR_API_KEY_HERE"
+REACT_APP_GEMINI_API_KEY="YOUR_API_KEY"
 
 **4. Run the application:**
 ```bash
@@ -63,7 +62,7 @@ npm run dev
 
 The application should now be running at http://localhost:5173/
 
-**💡 What You Will Learn (Learning Outcomes)**
+## 💡 What You Will Learn?
 
 Structuring a scalable React project.
 
